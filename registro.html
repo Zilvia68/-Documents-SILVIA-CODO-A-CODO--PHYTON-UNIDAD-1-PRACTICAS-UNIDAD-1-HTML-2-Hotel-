@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Best Hotel </title>
+    <link rel="shortcut icon" href="imagenes/icono.jpg" type="image/x-icon">
+    <style>
+        h1{
+            text-align: center ;
+        }
+        footer{
+            text-align: center;
+        }
+        a{
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 >The Best Hotel</h1>
+        <nav>
+            <a href="index.html">
+                <img src="./imagenes/icono.jpg" width="50" alt="Hotel">
+            </a>
+            <a href="index.html">Home</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="registro.html">Registro</a>
+            <a href="ubicacion.html">Ubicacion</a>
+        </nav>
+        <br>
+    </header>
+    <main>
+        <h2>Registro del cliente</h2>
+        <form action="show_data.html">
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre">
+            <br><br>
+            <label for="Apellido">Apellido </label>
+            <input type="text" name="Apellido" id="apellido">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email">
+            <br><br>
+            <label for="calle">Calle</label>
+            <input type="text" name="calle" id="calle">
+           <br><br>
+            <label for="Numero">Numero</label>
+            <input type="number" name="Numero" id="Numero">
+            <br><br>
+            <label for="Celular">Celular</label>
+            <input type="numero" name="Celular" id="Celular">
+            <br><br>
+            <label for="Provincia">Provincia</label>
+            <select name="Provincia" id="Provincia">
+                <option value="1">Buenos Aires</option>
+                <option value="1">Cordoba</option>
+                <option value="1">San Juan</option></select>
+
+                <br><br><br>
+            
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+         </form>
+
+        
+    </main>
+    <br><br>
+    <footer>
+        <p>Sitio desarrollado por Practica Viernes</p>
+        <nav>
+            <a target="_blank" href="https://facebook.com">
+                <img width="20px" src="./imagenes/facebook.png" alt="Facebook"></a>
+
+            <a href="https://www.instagram.com/">
+                <img width="20px" src="./imagenes/instagram.png" alt="instagram"></a>
+
+            <a href="https://api.whatsapp.com/send?phone=0543874564252">
+                <img width="20px" src="./imagenes/whatsapp.png" alt="whatsapp"> </a>
+            </nav>
+
+
+    </footer>
+</body>
+</html>
